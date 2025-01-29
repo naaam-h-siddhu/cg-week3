@@ -13,7 +13,7 @@ public class Main {
         items.totalValue();
 
         items.sortInventory(false);
-        
+
 
 
     }
