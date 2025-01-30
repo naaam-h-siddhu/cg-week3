@@ -48,8 +48,9 @@ public class Stack {
             return;
         }
         Node temp = top;
-        while(temp.next != null){
+        while(temp != null){
             System.out.print(temp.data+", ");
+            temp = temp.next;
         }
 
     }
