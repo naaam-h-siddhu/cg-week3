@@ -26,12 +26,12 @@ public class Main {
         for(int i = (n/2)-1;i>=0;i--){
             heapify(arr,n,i);
         }
-        for(int i = n-1;i>=0;i++){
+        for(int i = n-1;i>0;i--){
             int temp = arr.get(0);
             arr.set(0,arr.get(i));
             arr.set(i,temp);
 
-            heapify(arr,n,0);
+            heapify(arr,i,0);
         }
     }
     public static void main(String[] args) {
