@@ -37,3 +37,4 @@ build/
 ### Mac OS ###
 .DS_Store
 pom.xml
+100mb-examplefile-com.txt
