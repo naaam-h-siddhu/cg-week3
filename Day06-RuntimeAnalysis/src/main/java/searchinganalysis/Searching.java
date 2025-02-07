@@ -1,4 +1,4 @@
-package sortinganalysis;
+package searchinganalysis;
 
 public class Searching {
     public static void generateArray(int[] arr){
