@@ -8,7 +8,7 @@ public class Main {
         int i = low, j= high;
 
         while(i<j){
-            while(i<= j && arr[i] < arr[pivot]){
+            while(i<= j && arr[i] <= arr[pivot]){
                 i++;
             }
             while(i<= j && arr[j] > arr[pivot]) {
